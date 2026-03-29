@@ -16,7 +16,7 @@ if (idade >= 18 && temCarteira) {
 }
 ````
 > Usa ∧ (&&). Só executa o comando dentro do if se as duas condições forem verdadeiras.
-> Em C, valores inteiros são usados como booleanos (0 = falso, diferente de 0 = verdadeiro).
+
 #### 2º Exemplo:
 ````c
 int chovendo = 0;
@@ -27,6 +27,7 @@ if (!chovendo || frio) {
 }
 ````
 > Usa ¬ (!) e ∨ (||). Executa se não estiver chovendo ou se estiver frio.
+
 ### Java :
 #### 1º Exemplo:
 ````java
@@ -37,7 +38,8 @@ if (nota >= 6 && frequencia >= 75) {
     System.out.println("Aprovado");
 }
 ````
-> Usa ∧ (&&). É necessário satisfazer ambas as condições.
+> Usa ∧ (&&). É necessário que as duas condições sejam verdadeiras.
+
 #### 2º Exemplo:
 ````java
 boolean loginValido;
@@ -46,7 +48,7 @@ boolean senhaCorreta = false;
 
 loginValido = usuarioCorreto && senhaCorreta;
 ````
-> O resultado da expressão lógica é atribuído a uma variável booleana.
+> O resultado da expressão é atribuído a uma variável.
 ### Python :
 #### 1º Exemplo:
 ````py
@@ -65,4 +67,4 @@ admin = False
 if not logado and admin:
     print("Acesso especial")
 ````
-> Usa ¬ (not) e ∧ (and). Ambas as condições precisam ser satisfeitas.
+> Usa ¬ (not) e ∧ (and). Ambas as condições precisam ser verdadeiras.
