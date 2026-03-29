@@ -39,3 +39,19 @@ FimSe
 
 FimAlgoritmo
 ````
+````
+Função avaliar(sentenca, atribuicao)
+
+Substituir cada proposição pelos valores V/F
+
+Resolver:
+¬ (negação)
+∧ (e)
+∨ (ou)
+→ (implica)
+↔ (bi-implica)
+
+Retornar resultado final (V ou F)
+
+FimFunção
+````
